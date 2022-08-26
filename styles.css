@@ -1,4 +1,5 @@
-header {
+header,
+section {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -30,4 +31,32 @@ header {
   right: 24px;
   top: 20px;
   border-radius: 8px;
+}
+
+#primary-text {
+  width: 327px;
+  height: 150px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  color: #172b4d;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+#description {
+  width: 327px;
+  height: 146px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
 }
